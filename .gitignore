@@ -1,0 +1,17 @@
+#Directories
+.vscode
+GameFiles
+
+#Files
+Launcher
+Launcher*
+Launcher.*
+Launcher*.*
+srglue
+srlua
+bin2c.lua
+tempCodeRunnerFile.*
+*.sh
+TtemGen.lua.c
+ItemGenEXE
+ItemGen
