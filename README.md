@@ -34,3 +34,10 @@ Then scroll down until you see
 	"InventoryBelt":	[],
 ```
 Insert a ',' between }] so it looks like },], then paste the item after the ','
+
+This will result in something that looks like
+```
+		},{"InventoryY":4,"Type":2,"ItemType":"Foot Armor","MagicEffects":{"Default":[{"EffectId":"toughness_pts","MaxStack":1,"EffectName":"implicit_toughness_armor_1","bDefault":1,"Parameters":[{"semantic":"AttributeFlatInt","value":3}]}],"RolledAffixes":[{"MaxStack":1,"Parameters":[{"semantic":"CharacteristicScoreInt","value":105}],"EffectName":"ar_criticalchance_score_11","EffectId":"criticalchance_score"}]},"Armor":{"Name":"Heavy_Boots_Tier1","Resistance":4},"InventoryX":9,"Value":"1","Level":161,"Rarity":4,"Quality":5} ],
+	"InventoryBelt":	[],
+```
+That mess will get formatted properly by the game once it loads. If you want to add multiple items at a time, just keep adding "," between the }] at the end to keep adding more. Note that the item slots DO matter, so don't try to put every item in the same spot (That is what Inventory X and Y are for in the program. Don't try to put stuff in Y =  5, since that is the bottom row and most items take 2 vertical slots)
