@@ -1,6 +1,4 @@
-# Item Affixes
-
-Affix FIle Locations:
+# Game File Instructions
 
 To replace files in Affixes\ copy the same files from Umbra\Loot\MagicEffects\Affixes\Armors_Weapons
  Specifically AffixesAccessories.xml, AffixesArmors.xml, AffixesWeapons.xml
