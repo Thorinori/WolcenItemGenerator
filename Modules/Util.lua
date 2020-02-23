@@ -256,8 +256,8 @@ function regen_output()
   item_base_selector:action(nil, item_base_selector.value, 1)
 end
 
-function generate_implicit_affixes()
-  local item = items[item_base_selector[tostring(item_base_selector.value)]]
+function generate_implicit_affixes(item)
+  local item = item
   local keywords = get_implicits(item)
   local imp = get_valid_implicits(keywords)
   if(imp) then

@@ -27,7 +27,7 @@ unpack = unpack or table.unpack
 types_enum = {['Weapons and Shields'] = 3, ['Helmets'] = 2, ['Leg Armor'] = 2, ['Boots'] = 2,
   ['Gloves'] = 2, ['Shoulder Armor'] = 2, ['Body Armor'] = 2, ['Belts'] = 2, ['Rings'] = 2, ['Amulets'] = 2}
 bodypart_to_string = {['Weapons and Shields'] = 'weapon_r', ['Helmets'] = 'helmet', ['Leg Armor'] = 'legs', ['Boots'] = 'feet',
-  ['Gloves'] = 'arm', ['Shoulder Armor'] = 'Shoulder', ['Body Armor'] = 'chest_armor', ['Belts'] = 'Belt', ['Rings'] = 'ring', ['Amulets'] = 'amulet'}
+  ['Gloves'] = 'arm', ['Shoulder Armor'] = 'Shoulder', ['Body Armor'] = 'chest_armor', ['Belts'] = 'belt', ['Rings'] = 'ring', ['Amulets'] = 'amulet'}
 
 affixes = generate_affixes()
 organized_affixes = organize_affixes(affixes)
@@ -319,7 +319,7 @@ function item_base_selector:action(str, index, state)
     end
     prefixes = generate_valid_affixes(items[item_base],tonumber(item_ilvl_field.value) or 1, 'prefix')
     suffixes = generate_valid_affixes(items[item_base],tonumber(item_ilvl_field.value) or 1, 'suffix')
-    generate_implicit_affixes()
+    generate_implicit_affixes(items[item_base])
     for i=1, (num_affixes/2) do
       gen_affix_selector(prefixes,'Prefixes')
     end
