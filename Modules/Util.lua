@@ -275,38 +275,40 @@ function generate_output(s)
   local keywords = get_implicits(item)
   local current_affix = iup.GetNextChild(affix_panel,nil)
   local last = current_affix
-  if(#keywords > 1) then
-    local Default = {}
-    for i=1, #keywords do
-      local imp = {}
+  if(keywords) then
+    if(#keywords > 1) then
+      local Default = {}
+      for i=1, #keywords do
+        local imp = {}
+        local affix_info = iup.GetNextChild(last,nil)
+        local sliders = iup.GetNextChild(iup.GetBrother(affix_info),nil)
+        local effect_dropdown = iup.GetBrother(iup.GetNextChild(affix_info,nil))
+        local effectid = effect_dropdown[effect_dropdown.value]
+        if(effectid) then 
+          local semantic = iup.GetNextChild(sliders, nil)
+          local val = iup.GetNextChild(sliders,semantic)
+          imp = {["EffectId"] = implicits[effectid].MagicEffect._attr.EffectId, ["EffectName"] = effectid, ["MaxStack"] = 1, ["bDefault"] = 1,
+                                              ["Parameters"] = {[1] = {
+                                                ["semantic"] = semantic.title,
+                                                ["value"] = math.floor(tonumber(val.value))}}}
+          table.insert(Default,imp)
+        end
+        last = iup.GetBrother(last)
+      end
+      output_table.MagicEffects.Default = Default
+    else
       local affix_info = iup.GetNextChild(last,nil)
       local sliders = iup.GetNextChild(iup.GetBrother(affix_info),nil)
       local effect_dropdown = iup.GetBrother(iup.GetNextChild(affix_info,nil))
       local effectid = effect_dropdown[effect_dropdown.value]
-      if(effectid) then 
-        local semantic = iup.GetNextChild(sliders, nil)
-        local val = iup.GetNextChild(sliders,semantic)
-        imp = {["EffectId"] = implicits[effectid].MagicEffect._attr.EffectId, ["EffectName"] = effectid, ["MaxStack"] = 1, ["bDefault"] = 1,
+      local semantic = iup.GetNextChild(sliders, nil)
+      local val = iup.GetNextChild(sliders,semantic)
+      output_table.MagicEffects.Default = {[1] = {["EffectId"] = implicits[effectid].MagicEffect._attr.EffectId, ["EffectName"] = effectid, ["MaxStack"] = 1, ["bDefault"] = 1,
                                             ["Parameters"] = {[1] = {
                                               ["semantic"] = semantic.title,
-                                              ["value"] = math.floor(tonumber(val.value))}}}
-        table.insert(Default,imp)
-      end
+                                              ["value"] = math.floor(tonumber(val.value))}}}}
       last = iup.GetBrother(last)
     end
-    output_table.MagicEffects.Default = Default
-  else
-    local affix_info = iup.GetNextChild(last,nil)
-    local sliders = iup.GetNextChild(iup.GetBrother(affix_info),nil)
-    local effect_dropdown = iup.GetBrother(iup.GetNextChild(affix_info,nil))
-    local effectid = effect_dropdown[effect_dropdown.value]
-    local semantic = iup.GetNextChild(sliders, nil)
-    local val = iup.GetNextChild(sliders,semantic)
-    output_table.MagicEffects.Default = {[1] = {["EffectId"] = implicits[effectid].MagicEffect._attr.EffectId, ["EffectName"] = effectid, ["MaxStack"] = 1, ["bDefault"] = 1,
-                                          ["Parameters"] = {[1] = {
-                                            ["semantic"] = semantic.title,
-                                            ["value"] = math.floor(tonumber(val.value))}}}}
-    last = iup.GetBrother(last)
   end
 
   local RolledAffixes = {}
