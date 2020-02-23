@@ -46,4 +46,4 @@ That mess will get formatted properly by the game once it loads. If you want to 
 
 __**KNOWN BUGS AND ISSUES**__
 1) Using internal names, not localized names.
-2) Belt implicits aren't functioning for some reason.
+2) Some belts not included currently. They don't have implicits and I don't remember there being any belts ingame without implicits that are actually used right now.
