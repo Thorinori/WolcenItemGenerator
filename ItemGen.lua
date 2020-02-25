@@ -88,7 +88,7 @@ affix_panel = iup.vbox{}
 add_child(parameter_panel,affix_panel)
 
 
-json_text = iup.text{multiline = "YES", scrollbar = "YES", visiblelines = 15, visiblecolumns = 30,alignment = "ALEFT", visible="YES", readonly = "YES", wordwrap="YES"}
+json_text = iup.text{multiline = "YES", scrollbar = "YES", visiblecolumns = 30,alignment = "ALEFT", visible="YES", readonly = "YES", wordwrap="YES",expand = "VERTICAL"}
 --modifier_text = iup.vbox{alignment = 'ALEFT', padding='10x5'}
 display_panel = iup.vbox{iup.label{title='Item Preview',alignment='ACENTER'}, json_text, alignment='ALEFT',padding="10x5"}
 
