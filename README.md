@@ -17,7 +17,7 @@ __**Instructions:**__
 
     a) UNIX: Run Launch.sh or lua ItemGen.lua
     
-    b) Windows: Double Click "Wolcen Item Generator.vbs" for no console window, run Launch.bat if you DO want the console.
+    b) Windows: Double Click "Wolcen Item Generator.vbs" for no console window, OR run Launch.bat if you DO want the console.
     
 __**GENERATING ITEMS**__
 At the time of this writing, you will get an error if you try to modify any affixes before you have your implicit affixes selected. You can close the error, set the implicit, then continue just fine without the error anymore.
