@@ -15,6 +15,7 @@ __**Instructions:**__
 2) Download as Zip (or clone the repo if you want)
 3) Run the program:
     a) UNIX: Run Launch.sh or lua ItemGen.lua
+    
     b) Windows: Double Click "Wolcen Item Generator.vbs" for no console window, run Launch.bat if you DO want the console.
     
 __**GENERATING ITEMS**__
