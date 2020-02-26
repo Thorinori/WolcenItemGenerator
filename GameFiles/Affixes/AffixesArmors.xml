@@ -5061,7 +5061,7 @@
   </Affix>
   <Affix AffixId="ar_local_blockefficiency_flat_5" Class="local_blockefficiency_flat" AffixType="suffix" Tier="5">
     <DropParams Frequency="1">
-      <ItemLevel LevelMin="20" LevelMax="90" />
+      <ItemLevel LevelMin="40" LevelMax="120" />
       <Keywords MandatoryKeywords="armor" OptionalKeywords="shield" />
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
@@ -5072,7 +5072,7 @@
   </Affix>
   <Affix AffixId="ar_local_blockefficiency_flat_6" Class="local_blockefficiency_flat" AffixType="suffix" Tier="6">
     <DropParams Frequency="1">
-      <ItemLevel LevelMin="20" LevelMax="90" />
+      <ItemLevel LevelMin="50" LevelMax="130" />
       <Keywords MandatoryKeywords="armor" OptionalKeywords="shield" />
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
@@ -5083,7 +5083,7 @@
   </Affix>
   <Affix AffixId="ar_local_blockefficiency_flat_7" Class="local_blockefficiency_flat" AffixType="suffix" Tier="7">
     <DropParams Frequency="1">
-      <ItemLevel LevelMin="20" LevelMax="90" />
+      <ItemLevel LevelMin="60" LevelMax="140" />
       <Keywords MandatoryKeywords="armor" OptionalKeywords="shield" />
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
@@ -5094,7 +5094,7 @@
   </Affix>
   <Affix AffixId="ar_local_blockefficiency_flat_8" Class="local_blockefficiency_flat" AffixType="suffix" Tier="8">
     <DropParams Frequency="1">
-      <ItemLevel LevelMin="20" LevelMax="90" />
+      <ItemLevel LevelMin="70" LevelMax="150" />
       <Keywords MandatoryKeywords="armor" OptionalKeywords="shield" />
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
@@ -5105,7 +5105,7 @@
   </Affix>
   <Affix AffixId="ar_local_blockefficiency_flat_9" Class="local_blockefficiency_flat" AffixType="suffix" Tier="9">
     <DropParams Frequency="1">
-      <ItemLevel LevelMin="20" LevelMax="90" />
+      <ItemLevel LevelMin="80" LevelMax="160" />
       <Keywords MandatoryKeywords="armor" OptionalKeywords="shield" />
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
@@ -5116,7 +5116,7 @@
   </Affix>
   <Affix AffixId="ar_local_blockefficiency_flat_10" Class="local_blockefficiency_flat" AffixType="suffix" Tier="10">
     <DropParams Frequency="1">
-      <ItemLevel LevelMin="20" LevelMax="90" />
+      <ItemLevel LevelMin="90" LevelMax="200" />
       <Keywords MandatoryKeywords="armor" OptionalKeywords="shield" />
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
@@ -5127,7 +5127,7 @@
   </Affix>
   <Affix AffixId="ar_local_blockefficiency_flat_11" Class="local_blockefficiency_flat" AffixType="suffix" Tier="11">
     <DropParams Frequency="1">
-      <ItemLevel LevelMin="20" LevelMax="90" />
+      <ItemLevel LevelMin="100" LevelMax="200" />
       <Keywords MandatoryKeywords="armor" OptionalKeywords="shield" />
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
@@ -5138,7 +5138,7 @@
   </Affix>
   <Affix AffixId="ar_local_blockefficiency_flat_12" Class="local_blockefficiency_flat" AffixType="suffix" Tier="12">
     <DropParams Frequency="1">
-      <ItemLevel LevelMin="20" LevelMax="90" />
+      <ItemLevel LevelMin="110" LevelMax="200" />
       <Keywords MandatoryKeywords="armor" OptionalKeywords="shield" />
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
@@ -5677,7 +5677,7 @@
   </Affix>
   <Affix AffixId="ar_additional_stamina_pts" AffixType="suffix" Tier="1">
     <DropParams Frequency="1">
-      <ItemLevel LevelMin="1" LevelMax="30" />
+      <ItemLevel LevelMin="1" LevelMax="200" />
       <Keywords MandatoryKeywords="armor" OptionalKeywords="feet" />
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>

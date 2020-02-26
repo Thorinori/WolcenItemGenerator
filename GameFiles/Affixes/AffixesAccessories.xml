@@ -25,7 +25,7 @@
     <DropParams Frequency="1">
       <ItemLevel LevelMin="20" LevelMax="50" />
       <Keywords OptionalKeywords="belt,amulet,ring" MandatoryKeywords="accessory" />
-      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />@
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
     <MagicEffect EffectId="health_pts">
       <LoRoll HealthFlatInt="150" />
@@ -1723,7 +1723,7 @@
     </DropParams>
     <MagicEffect EffectId="criticaldamage_pts">
       <LoRoll DamagePercentInt="5" />
-      <HiRoll DamagePercentInt="10" />
+      <HiRoll DamagePercentInt="6" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="ac_global_critical_strike_damage_2" Class="criticaldamage" AffixType="suffix" Tier="2">
@@ -1733,8 +1733,8 @@
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
     <MagicEffect EffectId="criticaldamage_pts">
-      <LoRoll DamagePercentInt="10" />
-      <HiRoll DamagePercentInt="15" />
+      <LoRoll DamagePercentInt="7" />
+      <HiRoll DamagePercentInt="8" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="ac_global_critical_strike_damage_3" Class="criticaldamage" AffixType="suffix" Tier="3">
@@ -1744,8 +1744,8 @@
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
     <MagicEffect EffectId="criticaldamage_pts">
-      <LoRoll DamagePercentInt="15" />
-      <HiRoll DamagePercentInt="20" />
+      <LoRoll DamagePercentInt="9" />
+      <HiRoll DamagePercentInt="10" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="ac_global_critical_strike_damage_4" Class="criticaldamage" AffixType="suffix" Tier="4">
@@ -1755,8 +1755,8 @@
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
     <MagicEffect EffectId="criticaldamage_pts">
-      <LoRoll DamagePercentInt="20" />
-      <HiRoll DamagePercentInt="25" />
+      <LoRoll DamagePercentInt="11" />
+      <HiRoll DamagePercentInt="12" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="ac_global_critical_strike_damage_5" Class="criticaldamage" AffixType="suffix" Tier="5">
@@ -1766,8 +1766,8 @@
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
     <MagicEffect EffectId="criticaldamage_pts">
-      <LoRoll DamagePercentInt="25" />
-      <HiRoll DamagePercentInt="30" />
+      <LoRoll DamagePercentInt="13" />
+      <HiRoll DamagePercentInt="14" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="ac_global_critical_strike_damage_6" Class="criticaldamage" AffixType="suffix" Tier="6">
@@ -1777,8 +1777,8 @@
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
     <MagicEffect EffectId="criticaldamage_pts">
-      <LoRoll DamagePercentInt="30" />
-      <HiRoll DamagePercentInt="30" />
+      <LoRoll DamagePercentInt="15" />
+      <HiRoll DamagePercentInt="16" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="ac_global_critical_strike_damage_7" Class="criticaldamage" AffixType="suffix" Tier="7">
@@ -1788,8 +1788,8 @@
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
     <MagicEffect EffectId="criticaldamage_pts">
-      <LoRoll DamagePercentInt="30" />
-      <HiRoll DamagePercentInt="30" />
+      <LoRoll DamagePercentInt="17" />
+      <HiRoll DamagePercentInt="18" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="ac_global_critical_strike_damage_8" Class="criticaldamage" AffixType="suffix" Tier="8">
@@ -1799,8 +1799,8 @@
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
     <MagicEffect EffectId="criticaldamage_pts">
-      <LoRoll DamagePercentInt="30" />
-      <HiRoll DamagePercentInt="30" />
+      <LoRoll DamagePercentInt="19" />
+      <HiRoll DamagePercentInt="20" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="ac_global_critical_strike_damage_9" Class="criticaldamage" AffixType="suffix" Tier="9">
@@ -1810,8 +1810,8 @@
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
     <MagicEffect EffectId="criticaldamage_pts">
-      <LoRoll DamagePercentInt="30" />
-      <HiRoll DamagePercentInt="30" />
+      <LoRoll DamagePercentInt="19" />
+      <HiRoll DamagePercentInt="20" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="ac_global_critical_strike_damage_10" Class="criticaldamage" AffixType="suffix" Tier="10">
@@ -1821,8 +1821,8 @@
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
     <MagicEffect EffectId="criticaldamage_pts">
-      <LoRoll DamagePercentInt="30" />
-      <HiRoll DamagePercentInt="30" />
+      <LoRoll DamagePercentInt="19" />
+      <HiRoll DamagePercentInt="20" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="ac_global_critical_strike_damage_11" Class="criticaldamage" AffixType="suffix" Tier="11">
@@ -1832,8 +1832,8 @@
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
     <MagicEffect EffectId="criticaldamage_pts">
-      <LoRoll DamagePercentInt="30" />
-      <HiRoll DamagePercentInt="30" />
+      <LoRoll DamagePercentInt="19" />
+      <HiRoll DamagePercentInt="20" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="ac_global_critical_strike_damage_12" Class="criticaldamage" AffixType="suffix" Tier="12">
@@ -1843,8 +1843,8 @@
       <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
     </DropParams>
     <MagicEffect EffectId="criticaldamage_pts">
-      <LoRoll DamagePercentInt="30" />
-      <HiRoll DamagePercentInt="30" />
+      <LoRoll DamagePercentInt="19" />
+      <HiRoll DamagePercentInt="20" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="ac_statusailment_inflict_score_percent_material_1" Class="ailmentchance" AffixType="suffix" Tier="1">
