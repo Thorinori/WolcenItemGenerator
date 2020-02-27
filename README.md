@@ -1,7 +1,7 @@
 # Wolcen Item Generator
 An item generator for the game Wolcen, written in Lua
 
-DISCLAIMER: I do not own the contents of GameFiles, these are files pulled directly from the game that are used to generate valid items. All credit to the Developers of Wolcen (Wolcen Studio) for their game files.
+DISCLAIMER: I do not own the contents of GameFiles, these are files pulled directly from the game that are used to generate valid items. All credit to the Developers of Wolcen (Wolcen Studio) for their game files. If this is a problem, please get in contact with me and I will remove the files and modify how they are acquired.
 
 __**REQUIREMENTS:**__
 Lua 5.1 or higher
